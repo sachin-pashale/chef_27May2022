@@ -1,0 +1,22 @@
+
+chef basic shell
+https://drive.google.com/drive/folders/1GkDxaDoBwFeTa_I5q5AIJXWztvQr08Fp
+documents
+https://docs.chef.io/chef_overview/#chef-workstation-components-and-tools
+
+bootstrap command
+knife bootstrap  --ssh-user ubuntu --sudo --identity-file "E:\Aws_Devops_Course\28th2nd pem\Webserver2nd282022.pem" -N mychefnode02
+
+node run list command
+knife node run_list add mychefnode06 'recipe[mysixthcookbook]'
+
+curl command: update client
+curl -L https://chef.io/chef/install.sh | sudo bash
+
+pre command after create chef server on Ec2
+sudo chef-server-ctl install chef-manage  
+sudo chef-server-ctl reconfigure
+sudo chef-manage-ctl reconfigure
+
+devops cheat sheet
+https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial/
